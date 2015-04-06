@@ -1,4 +1,8 @@
-/vendor
-/node_modules
 .env
 .idea
+_ide_helper.php
+.gitignore
+/composer.lock
+/vendor
+/node_modules
+/storage

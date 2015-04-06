@@ -135,10 +135,13 @@ return [
 		'Illuminate\Translation\TranslationServiceProvider',
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
+        'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider',
+        'Kodeine\Acl\AclServiceProvider',
+        'Barryvdh\Debugbar\ServiceProvider',
 
-		/*
-		 * Application Service Providers...
-		 */
+        /*
+         * Application Service Providers...
+         */
 		'App\Providers\AppServiceProvider',
 		'App\Providers\BusServiceProvider',
 		'App\Providers\ConfigServiceProvider',
@@ -192,7 +195,7 @@ return [
 		'URL'       => 'Illuminate\Support\Facades\URL',
 		'Validator' => 'Illuminate\Support\Facades\Validator',
 		'View'      => 'Illuminate\Support\Facades\View',
-
+        'Debugbar'  => 'Barryvdh\Debugbar\Facade',
 	],
 
 ];
